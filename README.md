@@ -1,3 +1,3 @@
 # Alignment
 
-This is the source code of the Python and shell programs for couting the sequence fragments uniquely aligned to the human mRNA RefSeq reference library (in SAM format), by the Burrows-Wheeler Alignment (BWA) software.
+This is the source code written in Bash shell script and Python programming language, for aligning mRNA sequence fragments to the human mRNA RefSeq reference library by Burrows-Wheeler Alignment (BWA) software and counting the number of uniquely aligned sequences tagged with unique molecular identifiers (UMIs) for each sample.
