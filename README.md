@@ -1,6 +1,6 @@
 # Sequence Alignment
 
-This analysis uses the *STAR* sequence aligner to map all the sequence reads contained in the *FASTQ* data files obtained from high-throughput mRNA-sequencing assay to the UCSC human genome reference library (hg38), such that those uniquely aligned reads can be assigned to corresponding reference genes in the <u>Feature Counts</u> analysis later.
+This analysis uses the *STAR* sequence aligner to map all the sequence reads contained in the *FASTQ* data files obtained from high-throughput mRNA-sequencing assay to the UCSC human genome reference library (*hg38*), such that those uniquely aligned reads can be assigned to corresponding reference genes in the <u>Feature Counts</u> analysis later.
 
 ## Inputs
 
@@ -23,5 +23,5 @@ The procedure of this analysis includes the following steps:
 The outputs of this analysis include:
 
 - The *STAR* genome index data directory `STAR-Index-[Version]` in the `References` directory.
-- A set of sequence alignment data files (**.bam*) in the `Aligns` directory.
+- A set of sequence alignment data files (`*.bam`) in the `Aligns` directory.
 
